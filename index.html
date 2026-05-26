@@ -1,54 +1,93 @@
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Welcome | Erick Serra</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="logo.png">
-    <script src="index.js"></script>
-  </head>
-  <body bgcolor="#1f1f1f" text="white">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Erick Serra</title>
 
-<h1 align="center">Welcome!</h1>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="logo.png">
 
-<section class="contentCenter">
-  <div class="content">
-  <img src="foto.jpg" width="100px" id="foto">
-  <div id="text">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main class="card">
+
+    <div class="profile">
+      <img src="foto.jpg" id="foto">
+
+      <div class="intro">
+        <h1>Erick Serra</h1>
+        <span class="tag">
+          English Education Student • Web Developer
+        </span>
+      </div>
+    </div>
+
+    <section class="about">
       <p>
-      Hi! I’m Erick, an 20-year-old English Education Student and an Information Technology enthusiast! My main interests are programming and web development. Using my creativity and the techniques I’ve learned to build projects feels fantastic. That’s why I’m here! I hope to help more people with my skills. Interested? Contact me through the following social media platforms:</p>
-  </div>
-</div>
-</section>
-  
-  <div class="socials">
-    <a href="https://instagram.com/moldybiscuits1904"><img src="instagram.png" width="20px" height="20px">Instagram</a>
-  </div>
-  <div class="socials">
-    <a href="https://www.linkedin.com/in/erick-s-5b9a52246"><img src="linkedin.png" width="20px" height="20px">LinkedIn</a>
-  </div>
-  <div class="socials">
-    <a href="https://github.com/lovelyyulian"><img src="github.png" width="20px" height="20px">Github</a>
-  </div>
+        Hi! I’m Erick, a 20-year-old English Education student and an
+        Information Technology enthusiast based in Brazil.
+      </p>
+
+      <p>
+        My main interests are programming and web development.
+        I love turning ideas into real projects through programming and web development — and I'm here to use those skills to help people. Let's connect.
+      </p>
+
+      <p>
+        Feel free to reach out through my social media:
+      </p>
+    </section>
+
+    <div class="socials">
+
+      <a href="https://instagram.com/moldybiscuits1904" target="_blank">
+        <img src="instagram.png">
+        Instagram
+      </a>
+
+      <a href="https://www.linkedin.com/in/erick-s-5b9a52246" target="_blank">
+        <img src="linkedin.png">
+        LinkedIn
+      </a>
+
+      <a href="https://github.com/lovelyyulian" target="_blank">
+        <img src="github.png">
+        GitHub
+      </a>
+
+    </div>
+
+  </main>
+
   <div id="language">
-            <button id="languageBtn" onclick="language()"></button>
-            <div id="languageSettings">
-                <div class="languageSettings">
-                    <h2>Language</h2>
-                    <hr>
-                </div>
-                <div class="languageSettings">
-                    <div id="languageOptions">
-                        <label for="languageOptions">Select: </label>
-                        <select name="languageOptions">
-                        <option value="english">English</option>
-                        <option value="french">François</option>
-                        <option value="portuguese">Português</option>
-                    </select>
-                    </div>
-                </div>
-            </div>
-        </div>
-  <footer>developed by erick r. serra</footer>
-  </body>
+    <button id="languageBtn" onclick="language()"></button>
+
+    <div id="languageSettings">
+
+      <h2>Language</h2>
+      <hr>
+
+      <div id="languageOptions">
+        <label>Select:</label>
+
+        <select name="languageOptions">
+          <option value="english">English</option>
+          <option value="french">Français</option>
+          <option value="portuguese">Português</option>
+        </select>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    developed by erick r. serra
+  </footer>
+
+</body>
 </html>
